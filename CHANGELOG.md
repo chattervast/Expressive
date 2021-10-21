@@ -15,3 +15,4 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ## 1.02 - 2021-10-20
 ### Added
 - Plugin changed to user Chattervast
+- Desceription Update: Craft 3 plugin that adds PHP PCRE preg functions as Twig filters.
