@@ -1,0 +1,44 @@
+{
+    "name": "chattervast/expressive",
+    "description": "Adds PHP PCRE preg functions as Twig filters.",
+    "type": "craft-plugin",
+    "version": "1.02",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "expressive",
+        "preg",
+        "pcre",
+        "preg_match",
+        "preg_filter"
+    ],
+    "support": {
+        "docs": "https://github.com/chattervast/expressive/blob/master/README.md",
+        "issues": "https://github.com/chattervast/expressive/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chattervast",
+            "homepage": "https://github.com/chattervast"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "chattervast\\expressive\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Expressive",
+        "handle": "expressive",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/chattervast/expressive/master/CHANGELOG.md",
+        "class": "chattervast\\expressive\\Expressive"
+    }
+}
